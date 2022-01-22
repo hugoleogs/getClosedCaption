@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GetClosedCaption</title>
+
+    <script src="js/jquery.js"></script>
+    <script src="js/axios.js"></script>
+    <script type="text/javascript" src="js/FileSaver.min.js"></script>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="css/stilo1.css">
+    <script src="js/scripts.js"></script>
+
+</head>
+
+<body>
+    <header class="entrada">
+        <img class="inicio" src="img/logo_size_with_alfa.png" alt="logo_da_empresa">
+        <h2 class="centro">GetClosedCaption</h2>
+        <button id="reset" onClick="window.location.reload();" class="button">Reset</button>
+    </header>
+
+    <main class="part1">
+        <input name="entrada1" id="email" class="w3-input w3-border w3-animate-input" type="text" style="width:30%"
+            placeholder="Cole o link do youtube aqui...">
+        <button id="pesquisa" onclick="evento1()" class="button">Pesquisar</button>
+    </main>
+
+    <main class="part2">
+
+        <iframe id="video" width="560" height="315" src="img/gravacao_tela.gif"
+            title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen>
+        </iframe>
+
+
+    </main>
+
+    <main class="part3">
+        <textarea id="caixa1" name="caixa_entrada" rows="20" cols="70">
+            Iniciar a escrita?...
+        </textarea>
+        <textarea id="caixa2" name="caixa_saida" rows="20" cols="70">
+            Traduzir?...
+        </textarea>
+    </main>
+
+    <footer class="controle">
+        <button id="btn" class="button">Escrever</button>
+        <button id="btn2" class="button">Traduzir</button>
+        <button id="btn3" class="button">Download</button>
+    </footer>
+
+    <script>iniciar_api()</script>
+</body>
+
+</html>
