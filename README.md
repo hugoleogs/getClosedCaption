@@ -5,9 +5,15 @@ basta só falar e depois fazer o download do arquivo se desejar.
 
 ## Modo de uso
 
-1 Copiar a url do seu video do youtube que você irá narrar e colar na barra de pesquisa e em seguida pressionar a tecla "Pesquisar". (Opcional)
-2 Pressionar a tecla "Escrever" e iniciar a sua narrativa
-3 Você tem a opção de traduzir para inglês (Opcional)
-4 Fazer o download dos dois arquivos (Original e o traduzido)
+1 - Copiar a url do seu video do youtube que você irá narrar e colar na barra de pesquisa e em seguida pressionar a tecla "Pesquisar". (Opcional)
 
+2 - Pressionar a tecla "Escrever" e iniciar a sua narrativa
+
+3 - Você tem a opção de traduzir para inglês (Opcional)
+
+4 - Fazer o download dos dois arquivos (Original e o traduzido)
+
+A seguir um gif para demonstração
+
+![Imagem_Ciclo_Git](https://github.com/hugoleogs/comandos_git_github/blob/master/git.png)
 
