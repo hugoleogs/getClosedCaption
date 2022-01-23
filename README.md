@@ -111,3 +111,6 @@ Por fim, e não menos importante, é necessário criar os controles de iniciar e
 ```
 
 ## Link do websit : <https://getclosedcaptionv2.netlify.app/>
+
+# Atenção!!! Só funciona no GOOGLE CHROME
+
