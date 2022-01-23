@@ -1,22 +1,22 @@
 # getClosedCaption
 
 <p align="justify">
-O objetivo desse website é auxiliar as pessoas na hora de criar seus closedcaption ( cc), com esse site você não precisa escrever tudo na mão, 
+O objetivo deste website é auxiliar as pessoas na hora de criar seus closed captions ( cc), com esse site você não precisa escrever tudo na mão, 
 basta só falar e depois fazer o download do arquivo se desejar.
 </p>
 
 ## Modo de uso
 
 <p align="justify">
-1 - Copiar a url do seu video do youtube que você irá narrar e colar na barra de pesquisa e em seguida pressionar a tecla "Pesquisar". (Opcional)
+1 - Copiar a URL do seu video do youtube que você irá narrar e colar na barra de pesquisa e em seguida pressionar a tecla <b>Pesquisar</b>. (Opcional)
 
-2 - Pressionar a tecla "Escrever" e iniciar a sua narrativa
+2 - Pressionar a tecla <b>Escrever</b> e iniciar a sua narrativa
 
 3 - Você tem a opção de traduzir para inglês (Opcional)
 
 4 - Fazer o download dos dois arquivos (Original e o traduzido)
 
-A seguir um gif para demonstração
+A seguir um GIF para demonstração
 
 </p> 
   
@@ -25,9 +25,9 @@ A seguir um gif para demonstração
 ## Código
 
 <p align="justify">
- O youtube disponibiliza vários tipos de url para o mesmo vídeo, nesse trecho de código recebemos o tipo especifico onde no meio da url
-vem a palavra ""watch?v="" e trocamos por ""embed/"" para lozalizar o video. Obs: há casos onde a url do video faz parte de uma playlist
-não estamos tratando esse caso. 
+O youtube disponibiliza vários tipos de URLs para o mesmo vídeo, nesse trecho de código recebemos o tipo específico onde no meio da URL vem a 
+  palavra <i><b>watch?v=</b></i> e trocamos por <i><b>embed/</i></b> para localizar o vídeo. Obs: há casos onde a URL do vídeo faz parte de uma playlist. Observação: 
+  não estamos tratando esse caso.
 </p>
 
 ```Js
@@ -39,8 +39,7 @@ function evento1() {
 ```
 
 <p align="justify">
- O trecho a seguir, faz a solicitação via post a api do google para realizar a tradução do texto.
-Obs: é necessário colocar sua "CREDENCIAL"
+O trecho a seguir, faz a solicitação via POST a API do Google para realizar a tradução do texto. Observação: é necessário colocar sua "CREDENCIAL"
 </p>
 
 ```Js
@@ -55,8 +54,7 @@ let translate = async (text) => {
 ```
 
 <p align="justify">
- Precisamos reconhecer se o browser possui a api e em seguida ativar as configurações necessárias. 
- Como é realizado no código a seguir:
+Precisamos reconhecer se o browser possui a API e em seguida ativar as configurações necessárias. Como é realizado no código a seguir:
 </p>
 
 ```Js
@@ -88,7 +86,7 @@ let translate = async (text) => {
 ```
 
 <p align="justify">
- Por fim e não menos importante, é necessário criar os controles de iniciar e parar a aplicação.
+Por fim, e não menos importante, é necessário criar os controles de iniciar e parar a aplicação.
 </p>
 
 ```Js
