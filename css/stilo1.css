@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(00, 00, 00, 0.15);
+    background: linear-gradient(to right, rgb(83, 105, 118), rgb(41, 46, 73));
     margin: 0px;
 }
 
@@ -65,14 +65,14 @@ body {
     background-color: #4CAF50;
     border: none;
     border-radius: 15px;
-    box-shadow: 0 9px #999;
+    box-shadow: 0 4px #999;
   }
   
   .button:hover {background-color: #3e8e41}
   
   .button:active {
     background-color: #3e8e41;
-    box-shadow: 0 5px #666;
+    box-shadow: 0 2px #666;
     transform: translateY(4px);
   }
 
